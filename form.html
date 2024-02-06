@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h2> Form Fill Up For Pitha Buy </h2>
+            <form action="">
+                <label for="name"> Your Name: 
+                    <input type="text" id="name" placeholder="Your Name">
+                </label>
+                <label for="email"> Your E-mail: 
+                    <input type="text" id="email" placeholder="Your E-mail">
+                </label>
+                <label for="phone"> Your Phone No: 
+                    <input type="text" id="phone" placeholder="Your Phone No">
+                </label>
+                <fieldset>
+                    <legend>Pick One Pitha:</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy"> Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa"> Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri"> Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick another for vortha:</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vortha" id="sorisa"> Sorisha
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vortha" id="sutki"> Sutki
+                    </label>
+                    <label for="chili">
+                        <input type="checkbox" name="vortha" id="chili"> Chili
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Messages:</legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
